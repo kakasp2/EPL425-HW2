@@ -1,0 +1,25 @@
+headers{  
+  text-decoration: underline;
+  color :  #A4A400 ;
+ }
+h1{
+  font-family:  Lucida Sans Unicode, Helvetica,Arial,sans-serif ;
+  font-size:22pt;
+   text-align:center;
+  font-weight:bold;
+}
+h2,h3,h4,h5{
+  lign:left;  
+  font-size:18pt;
+  font-weight:normal;
+}
+a{
+  font-family:Georgia, Garamond,sans-serif;
+  color:#A4A400;
+  text-decoration: underline;
+}
+body{
+  color: #404040;
+  font-size: 11pt;
+  font-family:Georgia, Garamond,sans-serif;
+}

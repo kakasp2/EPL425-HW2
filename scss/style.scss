@@ -1,0 +1,49 @@
+$black: #000000;
+$lemon: #FFFF66;
+$grey: #808080;
+header{
+  
+  background-color:$black;
+        color:$lemon;
+  
+  
+}
+img{
+  float:left;
+}
+
+
+
+
+body {
+ background-color:$grey;
+}
+
+ul {
+   
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: $grey;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  text-align:center;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: $black;
+    color: $lemon;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: $lemon;
+}
